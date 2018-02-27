@@ -1,3 +1,9 @@
+
+/*padding: separacion de texto y la caja;
+padding: 5px; General
+padding: 5px 10px; Arriba abajo
+padding: 5px 10px 8px 5px; arriba der abajo izq*/
+
 body{
 	/*background: blue;*/
 	/*background: rgb(155,155,155)*/
@@ -6,10 +12,20 @@ body{
 	color: white ;
 }
 
+footer
+{
+	border: 1px solid orange;
+	font-weight: bold;
+	padding: 50px;
+	text-align: center;
+}
+
 header
 {
 	border: 10px solid black;
+	margin-bottom: 20px;
 	text-align: center;
+
 }
 
 header nav ul li
@@ -18,6 +34,9 @@ header nav ul li
 	border: 1px solid orange;
 	border-radius: 5px;
 	display: inline-block;
+	/*margin: 0px 20px 0px 0px;*/
+	margin-right: 20px;
+	padding: 10px 20px;
 	width: 90px;
 }
 
@@ -27,5 +46,28 @@ header nav ul li:hover /*Cuando pasa el cursor por el elemento*/
 	border: 1px solid orange;
 	border-radius: 5px;
 	display: inline-block;
+	/*margin: 0px 20px 0px 0px;*/
+	margin-right: 20px; 
+	padding: 10px 20px;
 	width: 90px;
 }
+
+main article
+{
+	border: 1px dashed black;
+	display: inline-block;
+	vertical-align: top;
+	width: 32.65%;
+	
+}
+
+main{
+	/*margin-top:20px separar del header
+}
+
+
+
+
+
+
+
