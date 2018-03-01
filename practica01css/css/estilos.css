@@ -1,0 +1,39 @@
+body
+{
+	border:1px solid blue;
+	font-size: 16px; /*1em = M por que es la mas ancha de todas las letras*/
+	margin:0px auto;
+	max-width: 1024px;
+
+}
+
+
+header{
+	background: #B3D8EB;
+}
+
+header nav form{
+	float: right;
+	margin-top: -34px;
+
+}
+
+header nav ul li{
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header nav{
+	background: #0E6CB0;
+	border-radius: 5px;
+	margin: 0 auto; 
+	padding: 2px 0px;
+	width: 99%;
+}
+
+
+
+#logo{
+	margin-top: -200px;
+}
