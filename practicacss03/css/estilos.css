@@ -1,0 +1,20 @@
+
+body
+{
+	font-size: 16px;
+	margin :0 auto;
+	max-width: 1078px;
+	min-width: 1078px;
+}
+header img
+{
+	width: 950px;
+	height: 45px;
+}
+header input
+{
+	float: left;
+	margin-left: -100px;
+	margin-top: 25px;
+	position: relative;
+}
