@@ -3,18 +3,159 @@ body
 {
 	font-size: 16px;
 	margin :0 auto;
-	max-width: 1078px;
-	min-width: 1078px;
+	max-width: 1090px;
+	min-width: 1090px;
+	border: 1px solid orange;
+}
+header{
+	background: #F9F7F6;
 }
 header img
 {
-	width: 950px;
-	height: 45px;
+	width: 800px;
+	height: 40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	margin-top: 5px;
+
 }
 header input
 {
 	float: left;
-	margin-left: -100px;
-	margin-top: 25px;
+	margin-left: 60px;
+	margin-top: 5px;
 	position: relative;
+}
+
+#primeraseccion
+{
+	background: #2E2D2D;
+}
+
+#primeraseccion article
+{
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+#secc01art01
+{
+	color: #FFFFFF;
+	font-family: 'Montserrat Alternates', sans-serif;
+	width: 23.5%;
+
+}
+#secc01art01 img
+{
+	width: 245px;
+	height: 100px;
+}
+
+#secc01art01 ul
+{
+	margin-top: 50px;
+	list-style: none;/*Quitamos las vinetas predeterminadas*/
+}
+
+#secc01art02
+{
+	background: #A6D746;
+
+	width: 18%;
+}
+
+#secc01art03
+{
+	background: #636363;
+	width: 18%;
+}
+#secc01art04
+{
+	background: #B83737;
+	width: 18%;
+}
+
+#secc01art05
+{
+	background: #E8E7E7;
+	width: 18%;
+}
+
+#segundaseccion
+{
+	background: #2E2D2D;
+	border-top:  1px solid gray;
+
+
+}
+
+#segundaseccion article
+{
+	border-bottom:  1px dashed white;
+ 	display: inline-block;
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ 	padding-bottom: 15px;
+ 	padding-left: 80px;
+}
+
+#img1
+{
+	width: 25%;
+}
+#img2
+{
+	width: 25%;
+}
+#img3
+{
+	width: 25%;
+}
+#segundaseccion article img
+{
+	width: 225px;
+	height: 30px;
+}
+
+#terceraseccion
+{
+	background: #2E2D2D;
+}
+
+#terceraseccion article
+{
+	display: inline-block;
+	width: 25%;
+}
+
+#secc03art03art01
+{
+	width: 5%;
+}
+
+#secc03art03art02
+{
+	width: 18%;
+}
+.colorblanco
+{
+	color: #FFFFFF;
+}
+
+.colorgris
+{
+	color:#A5A5A5 ;
+}
+.letramediana
+{
+	font-size: 1em;
+}
+.letragrande
+{
+	font-size: 1.5em;
+}
+.nito
+{
+	font-weight: bold;
 }
