@@ -1,7 +1,7 @@
 
 body
 {
-	font-size: 16px;
+	font-size: 12px;
 	margin :0 auto;
 	max-width: 1090px;
 	min-width: 1090px;
@@ -36,15 +36,14 @@ header input
 {
 	display: inline-block;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	vertical-align: top;
 }
 
 #secc01art01
 {
-	color: #FFFFFF;
 	font-family: 'Montserrat Alternates', sans-serif;
-	width: 23.5%;
-
+	width: 22%;
 }
 #secc01art01 img
 {
@@ -61,25 +60,42 @@ header input
 #secc01art02
 {
 	background: #A6D746;
+	font-family: 'Lato', sans-serif;
+	padding-left: 20px;
+	padding-right: 2px;
+	padding-top: 20px;
+	width: 16%;
+}
 
-	width: 18%;
+#letraR
+{
+	font-family: 'Roboto', sans-serif;
 }
 
 #secc01art03
 {
 	background: #636363;
-	width: 18%;
+	font-family: 'Lato', sans-serif;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 16%;
 }
 #secc01art04
 {
 	background: #B83737;
-	width: 18%;
+	font-family: 'Lato', sans-serif;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 16%;
 }
 
 #secc01art05
 {
 	background: #E8E7E7;
-	width: 18%;
+	font-family: 'Lato', sans-serif;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 16%;
 }
 
 #segundaseccion
@@ -121,14 +137,41 @@ header input
 #terceraseccion
 {
 	background: #2E2D2D;
+	 font-family: 'Roboto', sans-serif;
 }
 
 #terceraseccion article
 {
 	display: inline-block;
-	width: 25%;
+	text-align: left;
+	margin-left: 60px;
+	margin-bottom: 25px;
+	vertical-align: top;
+
 }
 
+#read
+{
+	padding-left:  110px;
+}
+
+#secc03art01
+{
+	width: 27%;
+}
+
+#secc03art02
+{
+	width: 18%;
+}
+#secc03art03
+{
+	width: 25%;
+}
+#terceraseccion ul
+{
+	list-style: none;
+}
 #secc03art03art01
 {
 	width: 5%;
@@ -147,15 +190,21 @@ header input
 {
 	color:#A5A5A5 ;
 }
+
+.colorazul
+{
+	color: #219DC4;
+}
 .letramediana
 {
-	font-size: 1em;
+	font-size: 1.2em;
 }
 .letragrande
 {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 .nito
 {
 	font-weight: bold;
 }
+
