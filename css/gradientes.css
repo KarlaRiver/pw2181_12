@@ -1,0 +1,89 @@
+article
+{
+	border-radius: 5px;
+	border:1px solid pink;
+	height: 50px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+#uno
+{
+	/*si no soporta gradientes*/
+	background: pink;
+	/*DE ROJO A AMARILLO*/
+	/*Opera*/
+	background: -o-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*safari*/
+	background: -webkit-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*Firefox*/
+	background: -moz-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*internet explorer-Edge*/
+	background: -ms-linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+	/*para todos los navegadores*/
+	background: linear-gradient(#FCB9B9,#8ADEE6  );
+}
+
+#dos
+{
+	/*si no soporta gradientes*/
+	background: pink;
+	/*Opera*/
+	background: -o-linear-gradient(to left,#FCB9B9,#8ADEE6  );
+	/*safari*/
+	background: -webkit-linear-gradient(to left,#FCB9B9,#8ADEE6 );
+	/*Firefox*/
+	background: -moz-linear-gradient(to left,#FCB9B9,#8ADEE6 );
+	/*internet explorer-Edge*/
+	background: -ms-linear-gradient(to left,#FCB9B9,#8ADEE6 );
+	/*para todos los navegadores*/
+	background: linear-gradient(to left,#FCB9B9,#8ADEE6 );
+}
+#tres
+{
+	/*si no soporta gradientes*/
+	background: pink;
+	/*Opera*/
+	background: -o-linear-gradient(to right,#FCB9B9,#8ADEE6  );
+	/*safari*/
+	background: -webkit-linear-gradient(to right,#FCB9B9,#8ADEE6 );
+	/*Firefox*/
+	background: -moz-linear-gradient(to right,#FCB9B9,#8ADEE6 );
+	/*internet explorer-Edge*/
+	background: -ms-linear-gradient(to right,#FCB9B9,#8ADEE6 );
+	/*para todos los navegadores*/
+	background: linear-gradient(to right,#FCB9B9,#8ADEE6 );
+}
+
+#cuatro
+{
+	/*si no soporta gradientes*/
+	background: pink;
+	/*Opera*/
+	background: -o-linear-gradient(to right bottom,#FCB9B9,#8ADEE6  );
+	/*safari*/
+	background: -webkit-linear-gradient(to right bottom,#FCB9B9,#8ADEE6 );
+	/*Firefox*/
+	background: -moz-linear-gradient(to right bottom,#FCB9B9,#8ADEE6 );
+	/*internet explorer-Edge*/
+	background: -ms-linear-gradient(to right bottom,#FCB9B9,#8ADEE6 );
+	/*para todos los navegadores*/
+	background: linear-gradient(to right bottom,#FCB9B9,#8ADEE6 );
+}
+
+
+#cinco
+{
+	/*si no soporta gradientes*/
+	background: pink;
+	/*Opera*/
+	background: -o-linear-gradient(to left bottom,#FCB9B9,#8ADEE6  );
+	/*safari*/
+	background: -webkit-linear-gradient(to left bottom,#FCB9B9,#8ADEE6 );
+	/*Firefox*/
+	background: -moz-linear-gradient(to left bottom,#FCB9B9,#8ADEE6 );
+	/*internet explorer-Edge*/
+	background: -ms-linear-gradient(to left bottom,#FCB9B9,#8ADEE6 );
+	/*para todos los navegadores*/
+	background: linear-gradient(to left bottom,#FCB9B9,#8ADEE6 );
+}
