@@ -6,11 +6,11 @@ article
 	margin: 20px 5px;
 	padding: 15px;
 	text-align: center;
-	-o-transition: all 5s linear;
-	-webkit-transition: all 5s linear;
-	-ms-transition: all 5s linear;
-	-moz-transition: all 5s linear;
-	transition: all 5s linear;
+	-o-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	transition: all 1s linear;
 	width: 400px;
 }
 article p{
@@ -33,4 +33,27 @@ article:hover{
 	-moz-transform: translate(150px,300px);
 	transform: translate(150px,300px);
 
+}
+
+
+
+/*article:hover{
+	background: black;
+	color:#8ADEE6;
+	-o-transform: skew(10deg,10deg);
+	-ms-transform: skew(10deg,10deg);
+	-webkit-transform: skew(10deg,10deg);
+	-moz-transform: skew(10deg,10deg);
+	transform: skew(10deg,10deg);
+
+}*/
+
+article:hover{
+	background: black;
+	color:#8ADEE6;
+	-o-transform:translate(150px,150px) rotate(360deg)  scale(2.3) skew(10deg,10deg);
+	-ms-transform:translate(150px,150px) rotate(360deg)  scale(2.3) skew(10deg,10deg);
+	-webkit-transform:translate(150px,150px) rotate(360deg)  scale(2.3) skew(10deg,10deg);
+	-moz-transform:translate(150px,150px) rotate(360deg)  scale(2.3) skew(10deg,10deg);
+	transform:translate(150px,150px) rotate(360deg)  scale(2.3) skew(10deg,10deg);
 }

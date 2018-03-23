@@ -1,0 +1,55 @@
+/*Imagen con atributo alt */
+img[alt]{
+	border:5px solid pink;
+
+}
+/*imagen con atributo src cadena exacta */
+img[src="img/flores.jpg"]{
+	width: 400px;
+}
+/*Imagen con atricuto src con el inicio de la cadena*/
+img[src^="img/"]{
+	width: 150px;
+}
+
+/*Busca al final de la cadena con atricuto src*/
+img[src$="jpg"]{
+	width: 250px;
+}
+
+/*imagen con atributo SRC en cualquier parte de la cadena*/
+img[src*="mg/"]{
+	width: 550px;
+}
+
+/*El caracter ~ indica que estos selectores están separados por espacios*/
+article[class ~="resaltado"]{
+	border:1px dashed gray;
+}
+
+article[class ~="archivo"]{
+	border:1px dashed blue;
+}
+
+article[class ~="resaltado"]{
+	border:1px dashed #E8C5F7;
+}
+/*Lista de valor separados por guiones*/
+article[class|="ingles"]{
+	text-align: center;
+	color: #C5DBF7  ;
+}
+/*SELECTOR DE SECUNDARIOS: seleccionar solamente las <p> que se encuentran 
+inmediatamente despues del div*/
+/*Solo hijos directos*/
+div > p
+ {
+	color: red;
+}
+/*Todos los elementos p seran seleccionados*/
+div p
+ {
+	color: #F59921;
+}
+
+
