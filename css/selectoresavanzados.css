@@ -52,4 +52,50 @@ div p
 	color: #F59921;
 }
 
+/*Seleccionar solo el elemento que <p> que esta despues del elemento h2- Hermano adyacente*/
+
+h2 +p{
+	color: green;
+}
+
+h2 ~ p{
+	color: gray;
+}
+
+/*Poner en color rojo el texto de las secciones menos el id de referencias*/
+#resumen,#experimento,#pruebas,#resultados,#conclusiones
+{
+	color: tomato;
+}
+
+section:not(#referencias){
+	color: pink;
+}
+/* */
+li:nth-child(odd){/*Impares*/
+	color: orange;
+}
+li:nth-child(even){/*Pares*/
+	color: purple;
+}
+li:nth-child(5){/*El quinto elemento de la lista*/
+	color: aqua;
+}
+li:nth-last-child(1){/*Ultimo elemento*/
+	color: violet;
+}
+
+/*que afecte nada mas la primera linea y la ponga ne negritas*/
+p:first-line{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 

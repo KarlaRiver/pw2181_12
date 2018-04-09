@@ -1,0 +1,122 @@
+body{
+	border: 3px solid black;
+	font-size: 16px;
+	margin :0 auto;
+	max-width: 1078px;
+	min-width: 1078px;
+}
+ header{
+ 	border-bottom: 2px dashed gray;
+
+ }
+
+#buy{
+	margin-left: 670px;
+	margin-top: -78px;
+	margin-bottom: 10px;
+	position: relative;
+	width: 65px;
+	height: 65px;
+}
+
+#first_bike
+{
+	margin-left: 25px;
+	margin-top: 25px;
+
+}
+#navimagenes{
+	
+	margin-left: 930px;
+	margin-top: -85px;
+	position: relative;
+}
+ 
+#navMenu ul li{
+	display: inline-block;
+	padding-right: 15px;
+
+}
+
+#go_to_shop{
+	margin-left: 725px;
+}
+
+#primerRenglon{
+	border-bottom: dashed gray;
+	position: relative;
+	top: -20px;
+	
+	
+	padding-left: 20px;
+}
+
+#segundoRenglon{
+	padding-left: 25px;
+	position: relative;
+	top: -20px;
+}
+#tercerRenglon{
+	padding-left: 25px;
+	position: relative;
+	top: -50px;
+}
+
+#cuartoRenglon{
+	padding-left: -10px;
+	position: relative;
+	top: -50px;
+}
+
+
+#bike{
+	width: 420px;
+	height: 500px;
+
+}
+
+#years{
+	
+	position: relative;
+	top: -100px;
+}
+#video01
+{
+	width: 270px;
+	height: 200px;
+}
+#video02
+{
+	width: 270px;
+	height: 200px;
+}
+
+#secc04 article
+{
+	top: 0 auto;
+	width: 19.5%;
+	border-top: 1px solid  #909390;
+	display: inline-block;
+}
+
+
+.nito
+{
+	font-weight: bold;
+}
+.colorgris{
+	color: #909390;
+}
+.colorverde
+{
+	color: #24FB24; 
+}
+
+.letramediana
+{
+	font-size: 2em;
+}
+.letragrande
+{
+	font-size: 4em;
+}
