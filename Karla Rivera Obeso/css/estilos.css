@@ -1,0 +1,135 @@
+body{
+	border: 3px solid black;
+	font-size: 16px;
+	margin :0 auto;
+	max-width: 1078px;
+	min-width: 1078px;
+}
+header{
+	margin-bottom: 100px;
+}
+
+header nav ul{
+		margin-left: 350px;
+		margin-top: -90px;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding-right: 15px;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+
+#coton{
+	border-radius: 280px;
+	margin-left: 20px;
+	width: 500px;
+}
+
+#eslogan{
+	float: right;
+	margin-top: 65px;
+	margin-right: 20px;
+	font-family: 'Muli', sans-serif;
+}
+
+#logo{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#renglon{
+	background: pink;
+	border-radius: 15px;
+
+}
+
+#secc01 table tr td nav article
+{
+	display: inline-block;
+	padding-left: 20px;
+}
+#services{
+	border-radius: 300px;
+	background: #F0D731;
+	text-align: center;
+	height: 110px;
+	width: 140px;
+	font-family: 'Lily Script One', cursive;
+
+}
+#segundoRenglon{
+	font-family: 'Roboto Slab', serif;
+}
+#flavors{
+	background:#97D1C7;
+	border-radius: 300px;
+	text-align: center;
+	height: 110px;
+	font-family: 'Lily Script One', cursive;
+	width: 145px;
+}
+#candy{
+	background: #F7A1A1;
+	border-radius: 300px;
+	text-align: center;
+	height: 110px;
+	width: 145px;
+	font-family: 'Lily Script One', cursive;
+
+}
+#secc01 table tr td nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#by{
+	margin-left: 20px;
+}
+
+#secc02 nav
+{
+	margin-left: 700px;
+	
+}
+#secc02 nav img{
+	padding-right: 15px;
+}
+#copy{
+	margin-left: 500px;
+	margin-bottom: 20px;
+}
+#foot{
+	margin-left: 30px;
+}
+.italica{
+	font-style: italic;
+}
+
+.letraMediana{
+	font-size: 2em;
+}
+.letramini{
+	font-size: 0.8em;
+}
+
+.nito
+{
+	font-weight: bold;
+}
+.colorblanco{
+	color: #FFFFFF;
+}
+.colorverde{
+	color: #97D1C7;
+}
+
+.colorrosa{
+	color: #F7A1A1  ;
+}
+.colorgris{
+	color: #6D6D6D    ;
+}
