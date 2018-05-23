@@ -2,6 +2,7 @@ var inicioApp = function(){
     var Aceptar = function(){
         var usuario=$("#txtUsuario").val();
         var clave=$("#txtClave").val();
+        
         var parametros="opc=validaentrada"+
                        "&usuario="+usuario+
                        "&clave="+clave+
@@ -13,14 +14,16 @@ var inicioApp = function(){
             url: "php/validaentrada.php",
             data: parametros,
             success: function(response){
-
-            },
-            error: function(xhr,ajaxOptions,throwError){
                 if(response.respuesta == true){
                     alert("Bienvenido");
                 }else{
                     alert("Usuario o Clave incorrecta");
                 }
+
+            },
+            error: function(xhr,ajaxOptions,throwError){
+                console.log(xhr);
+               
             }
         });
     }
