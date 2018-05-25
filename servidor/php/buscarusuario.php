@@ -1,6 +1,6 @@
 <?php
 include 'conexiones.php';
-function buscarusario(){
+function buscarusuario(){
     $respuesta = false;
     $usuario=$_POST["usuario"];
     
@@ -13,8 +13,8 @@ function buscarusario(){
 
     if(mysqli_num_rows($resConsulta) > 0){
         $respuesta = true;
-        while($regConsulta=mysql_fetch_array($resConsulta)){
-            $nombre = $regConsulta["nombre"];
+        while($regConsulta=mysqli_fetch_array($resConsulta)){
+            $nombre = utf8_encode($regConsulta["nombre"]);
             $clave = $regConsulta["clave"];
         }
     }

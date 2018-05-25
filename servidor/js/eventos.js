@@ -37,7 +37,7 @@ var inicioApp = function(){
 
     var buscarUsuario = function(){
         var usuario = $("#txtNombreUsuario").val();
-        var parametros="opc=buscarusuario"+
+        var parametros="opc=buscarUsuario"+
                        "&usuario="+usuario+
                        "&aleatorio="+Math.random();
 
@@ -46,7 +46,7 @@ var inicioApp = function(){
                 cache:false,
                 type: "POST",
                 dataType: "json",
-                url: "php/buscarusuaio.php",
+                url: "php/buscarusuario.php",
                 data: parametros,
                 success: function(response){
                     if(response.respuesta == true){
@@ -71,8 +71,40 @@ var inicioApp = function(){
             buscarUsuario();
         }
     }
+    var Guardar = function(){
+        var usuario=$("#txtNombreUsuario").val();
+        var nombre=$("#txtNombre").val();
+        var clave=$("#txtClaveUsuario").val();
+        if(usuario!="" && nombre!="" && clave!=""){
+            $.ajax({
+                cache:false,
+                type: "POST",
+                dataType: "json",
+                url: "php/guardarusuario.php",
+                data: parametros,
+                success: function(response){
+                    if(response.respuesta == true){
+                        alert("Datos guardados correctamente");
+                        $("#frmUsuarios > input").val("");
+                    }else{
+                        alert("ocurrio un error, Intente de nuevo mas tarde")
+                    }
+                },
+                error: function(xhr,ajaxOptions,throwError){
+                    console.log(xhr);
+                   
+                }
+            });
+
+        }else{
+            alert("Llene todos los campos");
+        }
+        
+    }
+
     $("#btnAceptar").on("click",Aceptar);
     $("#txtNombreUsuario").on("keypress",teclaNombreUsuario);
+    $("#btnGuardar").on("click",Guardar);
 }
 
 $(document).ready(inicioApp);
