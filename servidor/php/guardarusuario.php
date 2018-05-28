@@ -22,7 +22,7 @@ function guardarusuario(){
         }
     
     mysqli_query($con,$consultaGuarda);//Ejecuta la consulta
-    if(mysqli_affected_rows()>0){
+    if(mysqli_affected_rows($con)>0){
         $respuesta == true;
     }
     //Array asociativo
