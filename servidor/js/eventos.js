@@ -93,7 +93,7 @@ var inicioApp = function(){
                         alert("Datos guardados correctamente");
                         $("#frmUsuarios > input").val("");
                     }else{
-                        alert("ocurrio un error, Intente de nuevo mas tarde")
+                        alert("entra aqui :)")
                     }
                 },
                 error: function(xhr,ajaxOptions,throwError){
@@ -123,11 +123,11 @@ var inicioApp = function(){
                 cache:false,
                 type: "POST",
                 dataType: "json",
-                url: "php/guardarusuario.php",
+                url: "php/borrarusuario.php",
                 data: parametros,
                 success: function(response){
                     if(response.respuesta == true){
-                        alert("Datos guardados correctamente");
+                        alert("Datos borrados correctamente");
                         $("#frmUsuarios > input").val("");
                     }else{
                         alert("ocurrio un error, Intente de nuevo mas tarde")
@@ -142,12 +142,39 @@ var inicioApp = function(){
 
     }
 
+    var Listado = function(){
+        $("main > section").hide("slow");
+        $("frmListado").show("slow");
+        var parametros = "opc=listado"+
+                         "$aleatorio="+Math.random();
+        $.ajax({
+            cache:false,
+            type: "POST",
+            dataType: "json",
+            url: "php/Listado.php",
+            data: parametros,
+            success: function(response){
+                if(response.respuesta == true){
+                   $("#tblListado").append(response.tabla);
+                }else{
+                    alert("ocurrio un error, Intente de nuevo mas tarde")
+                }
+            },
+            error: function(xhr,ajaxOptions,throwError){
+                console.log(xhr);
+               
+            }
+        });
+
+    }
 
 
     $("#btnAceptar").on("click",Aceptar);
     $("#txtNombreUsuario").on("keypress",teclaNombreUsuario);
     $("#btnGuardar").on("click",Guardar);
-    $("#btnBorrar").on("click",Borrar)
+    $("#btnBorrar").on("click",Borrar);
+    $("#btnListado").on("click",Listado);
+
 }
 
 $(document).ready(inicioApp);

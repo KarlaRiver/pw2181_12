@@ -1,6 +1,6 @@
 <?php
 include 'conexiones.php';
-function buscarusuario(){
+function borrarusuario(){
     $respuesta = false;
     $usuario=$_POST["usuario"];
     
@@ -17,7 +17,7 @@ function buscarusuario(){
 }
 $opc=$_POST["opc"];
 switch ($opc) {
-    case 'borrarusuario':
+    case 'borrarUsuario':
          borrarusuario();
         break;
         
