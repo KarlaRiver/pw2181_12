@@ -146,7 +146,7 @@ var inicioApp = function(){
         $("main > section").hide("slow");
         $("frmListado").show("slow");
         var parametros = "opc=listado"+
-                         "$aleatorio="+Math.random();
+                         "&aleatorio="+Math.random();
         $.ajax({
             cache:false,
             type: "POST",
